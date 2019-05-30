@@ -14,7 +14,7 @@ $zIndexTop: 2;
     }
 
     .back {
-        padding: 10px;
+        padding: 10px 16px;
 
         .header {
             svg {
@@ -33,7 +33,7 @@ $zIndexTop: 2;
         }
 
         .section {
-            margin-top: 10px;
+            margin-top: 5px;
 
             :before {
                 content: '>';
@@ -80,7 +80,6 @@ $zIndexTop: 2;
     perspective: 1000;
 }
 
-/* flip the pane when hovered */
 .flip {
     .flipper {
         height: 180px;

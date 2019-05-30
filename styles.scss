@@ -16,14 +16,20 @@ $zIndexTop: 2;
     .back {
         padding: 10px;
 
-        .mask {
-            pointer-events: none;
+        .header {
+            svg {
+                width: 16px;
+                vertical-align: middle;
+            }
+            .author {
+                font-weight: bold;
+                font-size: 13px;
+                margin: 0 0 2px;
+            }
         }
 
-        .author {
-            display: block;
-            font-weight: bold;
-            margin: 0 0 2px;
+        .mask {
+            pointer-events: none;
         }
 
         .section {

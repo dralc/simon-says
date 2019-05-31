@@ -1,4 +1,6 @@
 $zIndexTop: 2;
+$blue: #1591DB;
+$black: #323232;
 
 .story-block {
     .front,
@@ -17,13 +19,15 @@ $zIndexTop: 2;
         padding: 10px 16px;
 
         .header {
+            color: $black;
             svg {
+                fill: $black;
                 width: 16px;
                 vertical-align: middle;
             }
             .author {
                 font-weight: bold;
-                font-size: 13px;
+                font-size: 12px;
                 margin: 0 0 2px;
             }
         }
@@ -35,16 +39,11 @@ $zIndexTop: 2;
         .section {
             margin-top: 5px;
 
-            :before {
-                content: '>';
-                width: 10px;
-                height: 10px;
-                margin-right: 2px;
-            }
-
             a { 
-                color: #1591DB;
+                color: $blue;
                 text-decoration: underline;
+                text-transform: none;
+                font-size: 12px;
             }
 
         }
@@ -55,18 +54,17 @@ $zIndexTop: 2;
     }
 
     .updated .commentBtn {
-
-        background-color: #4AA910;
-        color: #fff;
+        color: $blue;
         float: right;
         padding: 1px 5px;
         border-top-right-radius: 5px;
         border-bottom-left-radius: 5px;
+        text-transform: none;
 
         svg {
-            fill: #fff;
+            fill: $blue;
             height: auto;
-            margin-right: 3px;
+            margin-right: 4px;
             width: 15px;
             vertical-align: middle;
         }
